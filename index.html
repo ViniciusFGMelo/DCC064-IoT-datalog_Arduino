@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitor de Temperatura</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Partículas de fundo -->
+  <div class="particles" id="particles"></div>
+
+  <div class="container">
+    <div class="status-indicator" id="statusIndicator"></div>
+    
+    <h1>Monitor de Temperatura</h1>
+    
+    <div class="temp-display">
+      <div class="temp-label">Temperatura Atual</div>
+      <div class="temp-circle">
+        <div id="temp">Carregando...</div>
+      </div>
+      <div class="temp-trend" id="tempTrend"></div>
+    </div>
+    
+    <div id="timestamp"></div>
+    <div id="error"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
