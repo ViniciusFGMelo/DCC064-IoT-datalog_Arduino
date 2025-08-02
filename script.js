@@ -98,5 +98,5 @@ async function buscarTemperatura() {
 document.addEventListener('DOMContentLoaded', function() {
   createParticles();
   buscarTemperatura();
-  setInterval(buscarTemperatura, 10000);
+  setInterval(buscarTemperatura, 60000);
 });
