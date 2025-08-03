@@ -21,7 +21,7 @@ Este projeto lê a temperatura de um sensor DHT11 conectado ao Arduino e exibe o
 
 ### 2. Software
 ```bash
-npm npm install express serialport
+npm install express serialport
 node server.js
 ```
 

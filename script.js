@@ -14,6 +14,7 @@ function createParticles() {
   }
 }
 
+
 let ultimaTemperatura = null;
 let historicoTemp = [];
 
