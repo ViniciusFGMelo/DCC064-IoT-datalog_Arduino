@@ -2,6 +2,11 @@
 
 Sistema de monitoramento de temperatura em tempo real usando Arduino, sensor DHT11 e interface web moderna.
 
+# Vídeo no youtube
+https://www.youtube.com/watch?v=vOZyL0jKqAg
+# Slides
+https://gamma.app/docs/IoT-Datalog-da-Temperatura-Ambiente-com-Arduino-ub4onma4e4pal00?mode=doc
+
 ## 📋 O que é o projeto
 
 Este projeto lê a temperatura de um sensor DHT11 conectado ao Arduino e exibe os dados em uma página web em tempo real. O Arduino envia os dados via porta serial para um servidor Node.js, que disponibiliza uma API REST para a interface web consultar.
